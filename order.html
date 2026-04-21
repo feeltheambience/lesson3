@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оформление заказа - Айтилогия</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/order.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="logo">Айтилогия</a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">О курсе</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Программа</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="button">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="main-order">
+
+        <div class="main-package" id="main-package">
+          <div class="main-block-title">Тарифный план</div>
+          <div class="main-packages">
+            <div class="main-package-card is-active">
+              <div class="main-package-name">Basic</div>
+              <div class="main-package-price">990 ₽/мес</div>
+              <ul class="main-package-features">
+                <li>Доступ к материалам</li>
+                <li>Обратная связь</li>
+              </ul>
+            </div>
+            <div class="main-package-card">
+              <div class="main-package-name">Pro</div>
+              <div class="main-package-price">1990 ₽/мес</div>
+              <ul class="main-package-features">
+                <li>Доступ к материалам</li>
+                <li>Обратная связь</li>
+                <li>Сертификат</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-speed">
+          <div class="main-block-title">Скорость доставки</div>
+          <div class="main-speeds">
+            <div class="main-speed-card is-active">
+              <div class="main-speed-icon">📦</div>
+              <div>
+                <div class="main-speed-name">Regular</div>
+                <div class="main-speed-description">Обычная</div>
+              </div>
+            </div>
+            <div class="main-speed-card">
+              <div class="main-speed-icon">⚡</div>
+              <div>
+                <div class="main-speed-name">Fast</div>
+                <div class="main-speed-description">Приоритетная</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-calculate-block">
+          <button id="calc" class="button calculate-button" type="button" disabled>Рассчитать</button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">&copy; 2024 Айтилогия. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
