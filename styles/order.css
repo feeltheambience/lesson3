@@ -1,0 +1,168 @@
+/* Header */
+.header {
+  padding: 20px 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__link {
+  font-size: 16px;
+  color: #333333;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #DC6133;
+}
+
+/* Main */
+.main {
+  padding: 60px 0;
+}
+
+.main-order {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-block-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+/* Packages */
+.main-packages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.main-package-card {
+  border: 1px solid #E8E8E7;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+  transition: border-color .12s ease, background .12s ease;
+}
+
+.main-package-card.is-active {
+  background-color: #F8F2D6;
+  border-color: #B7B196;
+}
+
+.main-package-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.main-package-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #DC6133;
+  margin-bottom: 10px;
+}
+
+.main-package-features {
+  list-style: disc;
+  padding-left: 18px;
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Speed */
+.main-speed .main-block-title {
+  margin-bottom: 6px;
+}
+
+.main-speeds {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main-speed-card {
+  border: 1px solid #E8E8E7;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform .08s ease, border-color .12s ease, background .12s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-speed-card:hover {
+  transform: translateY(-1px);
+}
+
+.main-speed-card.is-active {
+  background-color: #F8F2D6;
+  border-color: #B7B196;
+}
+
+.main-speed-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.main-speed-description {
+  font-size: 12px;
+  color: #7C7C7C;
+  line-height: 1.2;
+}
+
+.main-speed-icon {
+  font-size: 24px;
+}
+
+/* Calculate */
+.main-calculate-block {
+  display: flex;
+  justify-content: center;
+}
+
+.calculate-button {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px;
+}
+
+/* Footer */
+.footer {
+  padding: 30px 0;
+  background-color: #333333;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
